@@ -10,7 +10,6 @@ module "security-center" {
   version = "1.0.0"
 
   # Resource Group, location, log analytics details
-  # One or more email addresses seperated by commas
   resource_group_name          = "rg-shared-westeurope-01"
   log_analytics_workspace_name = "loganalytics-we-sharedtest"
 
